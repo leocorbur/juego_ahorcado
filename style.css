@@ -1,0 +1,32 @@
+#ahorcado{
+    height:140px;
+    width: 120px;
+    background-image: url('./Screenshot_600x140.png');
+}
+#ganador{
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:medium;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: aqua ;
+}
+
+#perdedor{
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:medium;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: red ;
+}
